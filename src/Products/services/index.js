@@ -10,7 +10,6 @@ export async function getProducts() {
             url : `${baseURl}/user/profiles/1`,
             method : 'GET'
         })
-        console.log(response)
         return response
     } catch (e) {
         console.log(e)

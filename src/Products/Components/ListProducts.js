@@ -11,7 +11,6 @@ const ListProducts = () => {
     useEffect(  () => {
         async function loadProducts () {
             const response = await getProducts()
-            console.log("desde el useEffect",response)
             return response
         }
 
